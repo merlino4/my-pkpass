@@ -1,0 +1,89 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.renfe-RenfeTicket",
+  "serialNumber": "00HHGV7F7353900982276",
+  "teamIdentifier": "H9VY2F2XZA",
+  "webServiceURL": "https://www.myserver.com/pathto/service",
+  "authenticationToken": "1555016492062pmaFiTGhxfOFmomn",
+  "organizationName": "Renfe",
+  "description": "Billete de tren",
+  "labelColor": "rgb(204, 0, 153)",
+  "foregroundColor": "rgb(99, 99, 99)",
+  "backgroundColor": "rgb(212, 212, 212)",
+  "barcode": {
+    "message": "735390098227660000718011704190320100514C338HHGV7F..YSBM6",
+    "format": "PKBarcodeFormatQR",
+    "messageEncoding": "utf-8",
+    "altText": "7353900982276"
+  },
+  "boardingPass": {
+    "headerFields": [
+      {
+        "key": "destinofecha",
+        "label": "Viaje a: BCN-SANTS",
+        "value": "17/04/2019"
+      }
+    ],
+    "primaryFields": [
+      {
+        "key": "boardingTime",
+        "label": "MADRID-P.A",
+        "value": "20:00",
+        "changeMessage": "La hora de salida ha cambiado a %@"
+      },
+      { "key": "destino", "label": "BCN-SANTS", "value": "22:30" }
+    ],
+    "secondaryFields": [
+      { "key": "pasajero", "label": "Pasajero", "value": "" },
+      { "key": "localizador", "label": "Localizador", "value": "HHGV7F" }
+    ],
+    "auxiliaryFields": [
+      { "key": "tren", "label": "Tren AVE", "value": "03201" },
+      { "key": "coche", "label": "Coche", "value": "005" },
+      { "key": "asiento", "label": "Asiento", "value": "14C" },
+      { "key": "clasefrontal", "label": "Clase", "value": "Turista" }
+    ],
+    "backFields": [
+      {
+        "key": "numbil",
+        "label": "Número de Billete",
+        "value": "7353900982276"
+      },
+      { "key": "nombrepasajero", "label": "Pasajero", "value": "" },
+      { "key": "clasetrasera", "label": "Clase", "value": "Turista" },
+      { "key": "email", "label": "Email", "value": "cohnen@gmail.com" },
+      { "key": "tarifa", "label": "Tarifa", "value": "Rit Ida Y Vuelta S/c" },
+      {
+        "key": "precio",
+        "label": "Precio",
+        "value": "95,35 €  IVA(10%) 8,67 €"
+      },
+      {
+        "key": "gastosgestion",
+        "label": "Gastos de Gestión",
+        "value": "0,00 €"
+      },
+      { "key": "cercanias", "label": "CombinadoCercanias: YSBM6", "value": "" },
+      {
+        "key": "fechaventa",
+        "label": "Fecha de emisión",
+        "value": "11/04/2019 17:33:54"
+      },
+      { "key": "cif", "label": "CIF", "value": "A-86868189" },
+      {
+        "key": "condiciones",
+        "label": "Extracto de las Condiciones de Viaje",
+        "value": "- Este billete constituye su contrato de transporte, consérvelo hasta el fin del viaje.\u000A- Renfe tiene establecidos diferentes compromisos de puntualidad y calidad en todos sus trenes, en caso de incumplimiento de éstos, tendrá derecho a la indemnización correspondiente.\u000A- En viajes nacionales se permitirá como máximo 3 bultos de equipaje de mano. La suma del peso de los 3 no superará los 25 kg., ni la suma de sus dimensiones los 290 cm. El mayor de ellos no debe superar 85x55x35 cm.\u000A- Servicio cubierto por S.O.V. y S.R.C.\u000A- Condiciones Generales de los Contratos de Transporte en www.renfe.es"
+      }
+    ],
+    "transitType": "PKTransitTypeTrain"
+  },
+  "locations": [
+    {
+      "latitude": 40.406442,
+      "longitude": -3.690886,
+      "relevantText": "Estación cercana"
+    }
+  ],
+  "relevantDate": "2019-04-17T20:00+02:00"
+}
